@@ -1,0 +1,59 @@
+.productTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.productTable th,
+.productTable td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.productTable th {
+    background-color: #f2f2f2;
+}
+
+.productTableButton {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.productTableButton:hover {
+    background-color: #d32f2f;
+}
+
+
+.actionButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.addProductLink {
+    font-size: 48px; ;
+    display: inline-block;
+    background-color: cadetblue;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.addProductLink:hover {
+    background-color:cornflowerblue;
+}
+
+
+h1 {
+    text-align: center;
+    
+}
